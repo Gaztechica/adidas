@@ -24,26 +24,25 @@ body{
 .ul{
 	text-decoration: none;
 }
+
 .header {
 	width: 100%;
 	max-width: 1200px;
 	min-width: 430px;
 	margin: 0 auto 0;	
 	height: 150px;
-	
-
 }
 
 .logo {
 	display: flex;
-
 }
+
 .logo-img {
-	
 	margin: 38px 30px 30px 30px;
 	align-items: center;
 	text-align: center;
 }
+
 .nav {
 	display: flex;
 }
@@ -52,16 +51,19 @@ body{
 	display: flex;
 	align-items: center;
 }
+
 .nav-li {
 	list-style: none;
 	display: flex;
 	color: var(--text-color);
 }
+
 .nav-a {
 	text-decoration: none;
 	display: flex;
 	padding: 40px;
 }
+
 .button {
 	Width: 254px;
 	Height: 55px;
@@ -78,18 +80,16 @@ body{
 }
 
 .container{
-	background-color: aqua;
 	display: flex;
 	width: 100%;
 	max-width: 1200px;
 	min-width: 430px;
 	justify-content: space-between;
 }
+
 .main {
-	
 	text-align: center;
 	width: 100%;
-	
 	min-width: 430px;
 	max-width: 1200px;
 	margin: 0 auto;
@@ -122,9 +122,11 @@ body{
 	text-align: left;
 	margin: 60px 0 0 73px
 }
+
 .img1{
 	margin: -55px 0 0 -30px;
 }
+
 .img2{
 	margin: 122px 0 0 -54px;
 }
@@ -136,18 +138,16 @@ body{
 .img4{
 	margin: 86px 0 0 68px;
 }
+
 .container2{
-	background-color: aqua;
 	display: grid;
 	width: 100%;
 	max-width: 1200px;
 	min-width: 430px;
 	grid-template-columns: 1fr 1fr;	
-	 
 }
 
 .imge{
-	
 	width: 380px;
 	height: 360px;
 	display: grid;
@@ -161,28 +161,15 @@ body{
 	font-weight: 600;
 }
 .h2{
-	
 	margin: 0;
 	font-style: 36px;
 	color: var(--styl-color);
 }
 
-.h22{
-	
+.h22{	
 	margin: 0;
 	font-style: 36px;
 	color: var(--text-color);
-}
-.sitbar {
-	display: grid;
-	background-color: #ba78a3;
-	height: 300px;
-}
-
-.sitbar2 {
-	display: grid;
-	background-color: #b07f9f;
-	height: 300px;
 }
 
 .grid{
@@ -198,8 +185,6 @@ body{
 	margin-top: 180px;
 	grid-column: 30px;
 }
-
-
 
 .grid-item2{
 	display: grid;
@@ -238,9 +223,12 @@ body{
 }
 
 .footer{
+	background-image: url(../imeg/Group\ 8.png);
+	background-size: cover;
 	display: flex;
 	text-align: center;
 	width: 100%;
+	
 	min-width: 430px;
 	max-width: 1200px;
 	margin: 0 auto;
@@ -269,9 +257,10 @@ body{
 	display: flex;
 	padding: 40px;
 }
-.foot-ul {
-}
-.foot-li {
-}
-.nav-a {
+
+.container3{
+	align-items: center;
+	display: flex;
+	justify-content: space-between;
+	padding: 90px 180px;
 }
